@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ProjetoMDS</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_sobre">SobreActivity</string>
+    <string name="title_activity_desenvolvedores">DesenvolvedoresActivity</string>
+    <string name="o_maphole_foi_um_aplicativo_desenvolvido_durante_a_mat_ria_metodologias_e_desenvolvimento_de_sistema_na_universidade_federal_de_s_o_carlos_o_intuito_principal_do_aplicativo_o_mapeamento_de_buracos_na_cidade_visto_que_recorrente_as_reclama_es_dos_moradores_com_esse_mapeamento_podemos_num_futuro_emitir_relat_rios_semanais_para_rg_os_p_blicos_facilitando_a_a_o_para_resolver_os_problemas">O MapHole foi um aplicativo desenvolvido durante a matéria Metodologias e Desenvolvimento de Sistema na Universidade Federal de São Carlos. O intuito principal do aplicativo é o mapeamento de buracos na cidade, visto que é recorrente as reclamações dos moradores. Com esse mapeamento podemos num futuro emitir relatórios semanais para órgãos públicos facilitando a ação para resolver os problemas.</string>
+</resources>
