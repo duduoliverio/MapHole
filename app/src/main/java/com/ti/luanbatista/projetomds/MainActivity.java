@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Location;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -64,8 +65,29 @@ public class MainActivity extends AppCompatActivity
     private static final String MAP_VIEW_BUNDLE_KEY = "MapViewBundleKey";
     private static final float  DEFAULT_ZOOM = (float) 18;
     private static final boolean ENABLE_HIGH_ACCURACY = true;
+    private static final int SPLASH_TIME_OUT = 3000;
 
     private ArrayList<MyLocation> listaBuracos;
+
+    /*@Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_splash);
+
+        new Handler().postDelayed(new Runnable() {
+
+            @Override
+            public void run() {
+                // Esse método será executado sempre que o timer acabar
+                // E inicia a activity principal
+                //Intent i = new Intent(SplashDevMedia.this, ActivityPrincipal.class);
+                //startActivity(i);
+
+                // Fecha esta activity
+                finish();
+            }
+        }, SPLASH_TIME_OUT);
+    }*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

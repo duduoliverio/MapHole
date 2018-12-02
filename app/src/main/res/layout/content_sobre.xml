@@ -15,7 +15,7 @@
         android:lineSpacingExtra="10sp"
         android:text="@string/o_maphole_foi_um_aplicativo_desenvolvido_durante_a_mat_ria_metodologias_e_desenvolvimento_de_sistema_na_universidade_federal_de_s_o_carlos_o_intuito_principal_do_aplicativo_o_mapeamento_de_buracos_na_cidade_visto_que_recorrente_as_reclama_es_dos_moradores_com_esse_mapeamento_podemos_num_futuro_emitir_relat_rios_semanais_para_rg_os_p_blicos_facilitando_a_a_o_para_resolver_os_problemas"
         android:textAlignment="inherit"
-        android:textSize="24sp"
+        android:textSize="20sp"
         android:typeface="normal"
         app:fontFamily="sans-serif"
         tools:layout_editor_absoluteX="0dp"
