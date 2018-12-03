@@ -17,6 +17,9 @@
         android:textAlignment="inherit"
         android:textSize="20sp"
         android:typeface="normal"
+        android:paddingTop="30px"
+        android:paddingLeft="30px"
+        android:paddingRight="30px"
         app:fontFamily="sans-serif"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="-2dp" />

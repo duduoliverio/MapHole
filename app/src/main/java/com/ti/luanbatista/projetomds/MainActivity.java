@@ -69,26 +69,6 @@ public class MainActivity extends AppCompatActivity
 
     private ArrayList<MyLocation> listaBuracos;
 
-    /*@Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_splash);
-
-        new Handler().postDelayed(new Runnable() {
-
-            @Override
-            public void run() {
-                // Esse método será executado sempre que o timer acabar
-                // E inicia a activity principal
-                //Intent i = new Intent(SplashDevMedia.this, ActivityPrincipal.class);
-                //startActivity(i);
-
-                // Fecha esta activity
-                finish();
-            }
-        }, SPLASH_TIME_OUT);
-    }*/
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
