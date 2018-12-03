@@ -8,11 +8,53 @@
     tools:context=".DesenvolvedoresActivity"
     tools:showIn="@layout/activity_desenvolvedores">
 
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/du"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingVertical="100px"
+        android:paddingLeft="300px"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:text="Eduardo Oliverio"
+        android:textSize="20sp" />
+
+    <!--<ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/pedro" />
+
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Desenvolvedores" />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingVertical="450px"
+        android:paddingLeft="300px"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:text="Pedro Henrique Dumont Mauad"
+        android:textSize="20sp" />-->
 
 
+    <!--<ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/luan" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingVertical="800px"
+        android:paddingLeft="300px"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:text="Luan Batista"
+        android:textSize="20sp" />-->
+    
 </android.support.constraint.ConstraintLayout>
