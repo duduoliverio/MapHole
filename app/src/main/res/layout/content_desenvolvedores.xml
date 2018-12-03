@@ -56,5 +56,5 @@
         android:scrollbarAlwaysDrawVerticalTrack="true"
         android:text="Luan Batista"
         android:textSize="20sp" />-->
-    
+
 </android.support.constraint.ConstraintLayout>
